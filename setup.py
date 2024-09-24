@@ -6,17 +6,17 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="gym_f1tenth",
     version="0.1.0",
-    author="Ricardo Bedin Grando",
-    author_email="ricardo.bedin@utec.edu.uy",
-    description="Gym environment for Hydrone UAV",
+    author="",
+    author_email="",
+    description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ricardoGrando/hydrone_gym",
+    url="",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['gym']
+    install_requires=["gymnasium"],
 )
